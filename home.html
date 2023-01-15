@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="height=device-height, initial-scale=1.0">
+		<script type="text/javascript" src="script.js"></script>
+	</heaad>
+	<body>
+		<header>
+			<div class="cabrod">
+				<img src="logo.png" alt="logo site"><<h1>Transformador de Texto</h1>
+			</div>
+		</header>
+		
+		<main>
+			<div class="caixa">
+				<label for="txtorigem" class="desktop">Texto para Transformar</label><label for="txttransformado" class="desktop">Texto Transformado</label>
+			</div>
+			<div class="caixa">
+				<label for="txtorigem" class="mobile">Texto para Transformar</label>
+				<textarea class="campotexto" id="txtorigem" placeholder="Texto para Transformar"></textarea>
+				<label for="txttransformado" class="mobile">Texto Transformado</label>
+				<textarea class="campotexto" id="txttransformado" placeholder="Texto Transformado"></textarea>
+				<button hidden="hidden" class="botao" onclick="codificar()" >Codificar</button>
+				<button hidden="hidden" class="botao" onclick="descodificar()">Descodificar</button>
+				<button class="botao" onclick="transformar()">Transformar</button>
+				<button class="botao" onclick="limpar()">Limpar</button>
+				<button class="botao" onclick="copiar()">Copiar</button>
+			</div>	
+		</main>
+
+		<footer>
+			<p>Desafio 1 Alura: Codificador de Texto</p>
+		</footer>
+	</body>
+</html>

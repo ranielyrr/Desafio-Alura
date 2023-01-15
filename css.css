@@ -1,0 +1,178 @@
+body{
+background: rgb(167,191,255);
+background: radial-gradient(circle, rgba(167,191,255,1) 0%, rgba(204,204,204,1) 35%, rgba(216,212,255,1) 100%);
+
+}
+header, footer{
+	width: 100%;
+	height: 14vh;
+	max-height: 14vh;
+
+}
+footer p {
+	text-align: center;
+}
+.desktop{
+	display: block;
+}
+.mobile {
+	display: none;
+}
+.cabrod{
+	margin: 0 3%;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-flex-start;
+	max-height: 14vh;
+
+}
+.cabrod img {
+	min-width: 5%;
+	min-height: 7vh;
+	max-height: 10vh;
+	max-width: 25%;
+	margin-top: 03%;
+
+}
+.cabrod h1{
+	color: gray;
+	margin-top: 4%;
+	text-align: center;
+}
+
+main .caixa{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;  
+
+}
+.campotexto{
+  margin: 1%;
+  padding: 1%;
+  width: 45%;
+  height: 46vh;   
+  font-size: 30px; 
+}
+.campotexto, .botao {
+	border-radius: 10px;
+}
+
+.botao{
+  margin: 1%;
+  width: 23%;
+  height: 10vh;
+  border: none;
+  background: #FFDEAD;
+  color: #4169E1; 
+}
+
+.campotexto:hover{
+	transition: all 0.7s;
+	cursor:text;
+	box-shadow: 3px 3px 3px #808080, -2px -2px 2px #C0C0C0;
+	border: solid;
+	border-color: ##696969;
+
+}
+
+.botao:hover{
+	background: orange;
+	transition: all 0.7s;
+	cursor:pointer;
+	box-shadow: 3px 3px 3px #808080, -2px -2px 2px #C0C0C0;
+	border: solid;
+	color: #191970;
+	border-color: #D2691E;
+
+}
+
+
+/* AQUI VAI PARA MOBILE 
+
+aqui vai para mobile
+*/
+@media screen and (max-width: 480px){
+
+.mobile{
+	display: block;
+}
+.desktop{
+	display:none;
+}
+
+.cabrod{
+	margin: 0 3%;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-flex-start;
+	max-height: 14vh;
+
+}
+.cabrod img {
+	min-width: 5%;
+	min-height: 7vh;
+	max-height: 10vh;
+	max-width: 25%;
+	margin-top: 03%;
+
+}
+.cabrod h1{
+	color: gray;
+	margin-top: 4%;
+	text-align: center;
+}
+
+main .caixa{
+   display: flex;
+   flex-direction: wrap;	
+     
+}
+.campotexto{
+  margin: 1%;
+  padding: 1%;
+  width: 100%;
+  height: 15vh;   
+  font-size: 30px; 
+}
+.campotexto, .botao {
+	border-radius: 10px;
+}
+
+.botao{
+  margin: 1%;
+  width: 95%;
+  height: 10vh;
+
+}
+}
+/*
+.campotexto{
+	width: 90%;
+	margin: 2% 5%; 
+	border-radius: 10px;
+	position: relative;
+	height: 20vh;
+
+}
+
+main .caixa {
+	display: block;
+
+	flex-direction: column;
+	position: relative;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 06vh;
+	max-height: 70vh;
+	background-color: red;
+}
+.botao{
+	margin: 0 5%; 
+	width: 90.3%;
+	height: 05vh;
+	border-radius: 10px;
+	position: relative;
+	height: 10vh;
+}
+*/
